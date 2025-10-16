@@ -1,4 +1,22 @@
-# Ignore VSCode settings
+# Data files
+*.csv
+*.xlsx
+*.json
+
+
+# IDE files
 .vscode/
 .vscode*
-*.csv
+.idea/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+*.sqlite3
+
+
