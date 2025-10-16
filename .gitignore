@@ -1,22 +1,23 @@
-# Data files
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+*.env
+
+# Data
 *.csv
 *.xlsx
 *.json
 
-
-# IDE files
+# IDE
 .vscode/
 .vscode*
 .idea/
 
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-.venv
-*.sqlite3
-
-
+# OS
+.DS_Store
+Thumbs.db
