@@ -15,8 +15,6 @@ def gradient_descent_linear_regression(X, t, step_size = 0.01, precision = 0.000
 
 
 
-
-
 if __name__ == '__main__':
     #read data and Normalize (✔️)
     df = pd.read_csv('dataset_200x4_regression.csv')
